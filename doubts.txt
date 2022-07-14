@@ -1,0 +1,3 @@
+Admin and user module will be different projects or same
+if different the how data can be fetched what ever is added by admin
+how to add the flight details with journey daily, weekly

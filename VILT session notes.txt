@@ -1,0 +1,87 @@
+12 principles of Microservices
+_________________
+1. application deploy: running instance of a application
+
+configuration.json file
+
+consul(service restry is for service descovery discussed in architecture)
+_____________
+download consul from consul.io
+unZip it
+go to command prompt
+type--> cd Downloads
+type-->consul agent --dev
+go to localhost:8500 in browser
+
+Rabbit mq command to run after installation
+_________________________________----
+docker run -d --hostname my-rabbit --name ecom-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+go to the URL--> localhost:15672
+
+Provide any username and password
+UserName: guest
+password: guest
+
+Angular
+--------------
+To know the version  __type(Node -v) on command prompt(download from windows installer Node js)
+
+Install angular in laptop
+Create azure free account on go daddy
+to install typescript write below commands in command prompt(npm install -g typescript)
+install tsc in command prompt
+
+Create a .ts file and compile by (tsc filename.js)
+to compile--> terminal, commandprompt inside the VScode
+one .js file will be generated
+
+then run the file by filename.js
+you will see the output
+
+annonymous function in typescript
+
+Classes in typescript
+inheritance
+multiple and multilevel in heritance
+access specifiers are also present
+interfaces
+
+angular
+________--
+create and run angular project
+______________--------------
+
+ng new angfirst(project name)
+y
+scc
+
+cd downloads
+cd angfirstproj
+
+ng serve --open
+
+To generate component
+__________________________
+
+ng generate component anyname
+
+To generate ervice
+__________________________
+
+ng generate service anyname
+
+
+rabbitmq implementation
+--------------------------
+https://codewithmukesh.com/blog/rabbitmq-with-aspnet-core-microservice/
+
+To move to any file in D drive
+_________________________-
+D:
+cd foldername
+
+Azure
+_____________
+
+inbound rule port number should be :3389
